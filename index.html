@@ -11,8 +11,30 @@
 
 <body>
     <nav id="navbar">
-        <header></header>
-        <a href="" id="nav-link"></a>
+        <header>HTML Table Documentation</header>
+        <ul>
+            <a href="#introduction" class="nav-link">
+                <li>Introduction</li>
+            </a>
+            <a href="#defining_a_table" class="nav-link">
+                <li>Defining a Table</li>
+            </a>
+            <a href="#table_header" class="nav-link">
+                <li>Table Header</li>
+            </a>
+            <a href="#table_row" class="nav-link">
+                <li>Table Row</li>
+            </a>
+            <a href="#table_data" class="nav-link">
+                <li>Table Data (cells)</li>
+            </a>
+            <a href="#table_caption" class="nav-link">
+                <li>Table Caption</li>
+            </a>
+            <a href="#table_coding_example" class="nav-link">
+                <li id="bottom-nav-li">Table Coding Example</li>
+            </a>
+        </ul>
     </nav>
 
     <main>
@@ -23,6 +45,14 @@
                     Tables in HTML are an integral way to communicate a group of related information. A table is an
                     arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely
                     used in communication, research, and data analysis.
+                </p>
+                <p>
+                    Some of the HTML table elements we'll cover are:
+                    <li>Table Body</li>
+                    <li>Table Header</li>
+                    <li>Table Row</li>
+                    <li>Table Data/Cells</li>
+                    <li>Caption</li>
                 </p>
             </article>
         </section>
@@ -96,16 +126,17 @@
             <header>Table Caption</header>
             <article>
                 <p>
-                    The table caption is an optional element that can give meaning to the data represented. As with the
-                    other elements, CSS rules can be applied.
+                    The table caption is an optional element that can give meaning to the data represented. The caption
+                    tag must be applied immediately after the table tag. As with the other elements, CSS rules can be
+                    applied.
                 </p>
                 <p>
                     The table caption is defined with the following code: <br>
                     <code>
-                            <pre>
-            &ltcaption>&lt/caption>
-                            </pre>
-                        </code>
+                        <pre>
+        &ltcaption>&lt/caption>
+                        </pre>
+                    </code>
                 </p>
             </article>
         </section>
@@ -142,8 +173,8 @@
                     </code>
                 </p>
                 <p>
-                    The corresponding table can be seen below: 
-                
+                    The corresponding table can be seen below:
+
                     <table style="width:50%; background-color: rgb(163, 178, 199);">
                         <caption>Company Employees</caption>
                         <tr style="text-align:left;">

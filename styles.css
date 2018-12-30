@@ -1,0 +1,47 @@
+body {
+    display: flex;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    display: block;
+}
+
+#navbar a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(92, 88, 88);
+}
+
+#navbar header {
+    border: 1px solid;
+    border-bottom: 0px;
+    border-color: dimgray;
+    width: 250px;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar li {
+    border: 1px solid;
+    border-bottom: 0px;
+    border-color: dimgray;
+    width: 250px;
+}
+
+#bottom-nav-li {
+    border-bottom: 1px solid;
+    border-color: dimgray;
+}
+
+main {
+    position: absolute;
+    margin-left: 300px;
+    display: block;
+}
