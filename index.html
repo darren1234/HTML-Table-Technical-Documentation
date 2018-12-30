@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>HTML Table Technical Documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header></header>
+        <a href="" id="nav-link"></a>
+    </nav>
+
+    <main>
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    Tables in HTML are an integral way to communicate a group of related information. A table is an
+                    arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely
+                    used in communication, research, and data analysis.
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="defining_a_table">
+            <header>Defining a Table</header>
+            <article>
+                <p>
+                    In HTML a table is defined with the &lttable>&lt/table> tags. This encompasses the entire body of
+                    the
+                    table and the look can be modified with CSS.
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="table_header">
+            <header>Table Header</header>
+            <article>
+                <p>
+                    The table header is a name representing subsequent data below (or across from) the header. It can
+                    be used to group either columns or rows of information to show a particular relationship.
+                </p>
+                <p>
+                    The table header is defined with the following code: <br>
+                    <code>
+                        <pre>
+        &ltth>&lt/th>
+                        </pre>
+                    </code>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="table_row">
+            <header>Table Row</header>
+            <article>
+                <p>
+                    A table row is simply a way for HTML to represent a row of data within a table. It can be modified
+                    using its own CSS rules.
+                </p>
+                <p>
+                    The table row is defined with the following code: <br>
+                    <code>
+                        <pre>
+        &lttr>&lt/tr>
+                        </pre>
+                    </code>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="table_data">
+            <header>Table Data (cells)</header>
+            <article>
+                <p>
+                    'Table data' or cells, is the representation of the contents of the table. Each cell has it's own
+                    definition and can also be modified using CSS.
+                </p>
+                <p>
+                    The table data is defined with the following code: <br>
+                    <code>
+                        <pre>
+        &lttd>&lt/td>
+                        </pre>
+                    </code>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="table_coding_example">
+            <header>Table Coding Example</header>
+            <article>
+                <p>
+                    <p>
+                        The coding example below shows a basic table with headers, rows, and data.
+                    </p>
+
+                    <code>
+                        <pre>
+        &lttable style="width:100%">
+            &lttr>
+                &ltth>Firstname&lt/th>
+                &ltth>Lastname&lt/th> 
+                &ltth>Age&lt/th>
+            &lt/tr>
+            &lttr>
+                &lttd>Jill&lt/td>
+                &lttd>Smith&lt/td> 
+                &lttd>50&lt/td>
+            &lt/tr>
+            &lttr>
+                &lttd>Eve&lt/td>
+                &lttd>Jackson&lt/td> 
+                &lttd>94&lt/td>
+            &lt/tr>
+        &lt/table>
+                        </pre>
+                    </code>
+                </p>
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>
