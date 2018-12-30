@@ -92,18 +92,37 @@
             </article>
         </section>
 
+        <section class="main-section" id="table_caption">
+            <header>Table Caption</header>
+            <article>
+                <p>
+                    The table caption is an optional element that can give meaning to the data represented. As with the
+                    other elements, CSS rules can be applied.
+                </p>
+                <p>
+                    The table caption is defined with the following code: <br>
+                    <code>
+                            <pre>
+            &ltcaption>&lt/caption>
+                            </pre>
+                        </code>
+                </p>
+            </article>
+        </section>
+
         <section class="main-section" id="table_coding_example">
             <header>Table Coding Example</header>
             <article>
                 <p>
                     <p>
-                        The coding example below shows a basic table with headers, rows, and data.
+                        The coding example below shows a basic table with headers, rows, and data:
                     </p>
 
                     <code>
                         <pre>
-        &lttable style="width:100%">
-            &lttr>
+        &lttable style="width:80%; background-color: rgb(163, 178, 199);">
+            &ltcaption>Company Employees&lt/caption>
+            &lttr style="text-align:left;">
                 &ltth>Firstname&lt/th>
                 &ltth>Lastname&lt/th> 
                 &ltth>Age&lt/th>
@@ -116,11 +135,33 @@
             &lttr>
                 &lttd>Eve&lt/td>
                 &lttd>Jackson&lt/td> 
-                &lttd>94&lt/td>
+                &lttd>54&lt/td>
             &lt/tr>
         &lt/table>
                         </pre>
                     </code>
+                </p>
+                <p>
+                    The corresponding table can be seen below: 
+                
+                    <table style="width:50%; background-color: rgb(163, 178, 199);">
+                        <caption>Company Employees</caption>
+                        <tr style="text-align:left;">
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>54</td>
+                        </tr>
+                    </table>
                 </p>
             </article>
         </section>
