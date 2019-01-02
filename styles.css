@@ -96,12 +96,18 @@ main {
         text-indent: 60px;
     }
 
-    #spacer {
-        height: 178px;
-        display: block;
+    h2::before {
+        display: block; 
+        content: " "; 
+        margin-top: -178px; 
+        height: 178px; 
+        visibility: hidden; 
+        pointer-events: none;
     }
+
     #main-doc {
         position: relative;
+        top: 178px;
         margin-left: 0px;
         border-left: 0px;
         display: block;
