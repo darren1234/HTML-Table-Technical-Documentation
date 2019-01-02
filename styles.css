@@ -96,6 +96,8 @@ main {
         text-indent: 60px;
     }
 
+    /*Important for positioning below a fixed header/nav that hides underlaying content 
+    if, in this case, using h2 elements for the targets*/
     h2::before {
         display: block; 
         content: " "; 
